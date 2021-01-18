@@ -4,41 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".recipes">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView"
+        <Button
+            android:id="@+id/breakfast_rec"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/head" />
+            android:text="Завтрак" />
 
         <Button
-            android:id="@+id/recipes"
+            android:id="@+id/lunch_rec"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Рецепты" />
+            android:text="Обед" />
 
         <Button
-            android:id="@+id/sport"
+            android:id="@+id/dinner_rec"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Комплекс спортивных упражнений" />
-
-        <Button
-            android:id="@+id/calories"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Счетчик калорий" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="512dp"
-            app:srcCompat="@drawable/main" />
+            android:text="Ужин" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

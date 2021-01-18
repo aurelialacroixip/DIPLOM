@@ -4,41 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".sport">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView"
+        <Button
+            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/head" />
+            android:text="руки" />
 
         <Button
-            android:id="@+id/recipes"
+            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Рецепты" />
+            android:text="ноги" />
 
         <Button
-            android:id="@+id/sport"
+            android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Комплекс спортивных упражнений" />
+            android:text="пресс" />
 
         <Button
-            android:id="@+id/calories"
+            android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Счетчик калорий" />
+            android:text="выносливость" />
 
-        <ImageView
-            android:id="@+id/imageView2"
+        <Button
+            android:id="@+id/button5"
             android:layout_width="match_parent"
-            android:layout_height="512dp"
-            app:srcCompat="@drawable/main" />
+            android:layout_height="wrap_content"
+            android:text="силовые" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
